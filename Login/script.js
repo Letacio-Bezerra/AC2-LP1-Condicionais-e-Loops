@@ -14,6 +14,7 @@ function logar(){
     }
     while (senha != "pokemon" || login != "pokemon")
     alert("Login efetuado com sucesso")
+    window.location.href = './Pagina';
 }
 
 function cadastrar(){
@@ -79,10 +80,11 @@ function cadastrar(){
         if (genero === "") {
             alert("O campo não pode estar vazio");
         } 
-        else if (genero === "m" || genero === "f" || genero === "M" || genero === "F"){
+        else if (genero !== "m" && genero !== "f" && genero !== "M" && genero !== "F") {
             alert("Informação inválida");
         }
-    } while (genero === "m" || genero === "f");
+    } while (genero === "" || (genero !== "m" && genero !== "f" && genero !== "M" && genero !== "F"));
     alert("Nome: " + nome + " - E-mail: " + email + " - Idade: " + idade + " - Senha: " + senha + " - Gênero: " + genero)
     alert("Cadastro efetuado com sucesso!")
+    window.location.href = './Pagina';
 }

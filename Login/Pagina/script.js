@@ -5,11 +5,11 @@ function pokemon(){
     switch(escolhaPokemon){
         case "pikachu":
             pokemon.innerHTML = `
-            <h1>O seu pokemon é o: Pikachu</h1>
+            <h1 class="pikachu">O seu pokemon é o: Pikachu</h1>
 
             <img src="Pikachu.png" alt="pikachu">
 
-            <h2>Tipo: Elétrico<h2>
+            <h2 class="tipoEletrico">Tipo: Elétrico<h2>
 
             <ul>
             <h2>Poderes<h2>
@@ -22,11 +22,11 @@ function pokemon(){
         break;
         case "charmander":
             pokemon.innerHTML = `
-            <h1>O seu pokemon é o: Charmander</h1>
+            <h1 class="charmander">O seu pokemon é o: Charmander</h1>
 
             <img src="https://www.kindpng.com/picc/m/117-1172397_pokemon-charmander-png-high-quality-image-cute-pokemon.png" alt="Pokemon Charmander Png High-quality Image - Cute Pokemon Charmander, Transparent Png@kindpng.com">
 
-            <h2>Tipo: Fogo<h2>
+            <h2 class="tipoFogo">Tipo: Fogo<h2>
 
             <ul>
             <h2>Poderes<h2>
@@ -39,11 +39,11 @@ function pokemon(){
         break;
         case "squirtle":
             pokemon.innerHTML = `
-            <h1>O seu pokemon é o: Squirtle</h1>
+            <h1 class="squirtle">O seu pokemon é o: Squirtle</h1>
 
             <img src="squirtle.jpg" alt="Squirtle">
 
-            <h2>Tipo: Água<h2>
+            <h2 class="tipoAgua">Tipo: Água<h2>
 
             <ul>
             <h2>Poderes<h2>
@@ -56,11 +56,11 @@ function pokemon(){
         break;
         case "bulbasaur":
             pokemon.innerHTML = `
-            <h1>O seu pokemon é o: Bulbasaur</h1>
+            <h1 class="bulbasaur">O seu pokemon é o: Bulbasaur</h1>
 
             <img src="bulbasaur.png" alt="Bulbasaur">
 
-            <h2>Tipo: Planta/Veneno<h2>
+            <h2 class="tipoPlanta">Tipo: Planta/Veneno<h2>
 
             <ul>
             <h2>Poderes<h2>
@@ -73,11 +73,11 @@ function pokemon(){
         break;
         case "eevee":
             pokemon.innerHTML = `
-            <h1>O seu pokemon é o: Eevee</h1>
+            <h1 class="eevee">O seu pokemon é o: Eevee</h1>
 
             <img src="https://www.kindpng.com/picc/m/120-1204522_download-zip-archive-cartoon-hd-png-download.png" alt="Download Zip Archive - Cartoon, HD Png Download@kindpng.com">
 
-            <h2>Tipo: Normal<h2>
+            <h2 class="tipoNormal">Tipo: Normal<h2>
 
             <ul>
             <h2>Poderes<h2>
